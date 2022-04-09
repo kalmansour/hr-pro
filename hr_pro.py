@@ -58,7 +58,7 @@ def main():
             bonus_percentage = int(input("Bonus percentage:"))
             y = Manager(name, age, salary, employment_year,bonus_percentage)
             managers.append(y.__str__())
-            print('Manager added succesfully')
+            print('Manager added succesfully\n')
         else:
             print('invalid number choice')
 
